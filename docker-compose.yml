@@ -8,7 +8,7 @@ services:
       - "./core:/app"
     ports:
       - "8000:8000"
-    environment:
-      - "SECRET_KEY=${DJANGO_SECRET_KEY}"
-      - "DEBUG=${DJANGO_DEBUG}"
+    # environment:
+    #   - "SECRET_KEY=${DJANGO_SECRET_KEY}"
+    #   - "DEBUG=${DJANGO_DEBUG}"
       
